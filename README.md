@@ -22,8 +22,11 @@
 </p>
 
 <!-- Running music notes animation -->
+<!-- Music notes strip (text-based, works everywhere) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2000&pause=0&center=true&vCenter=true&width=600&color=FF9AE6&lines=♪+♫+♬+♩+♪+♫+♬+♩;♩+♪+♫+♬+♩+♪+♫+♬;♪+♩+♪+♩+♪+♩+♪+♩" alt="Music notes animation" />
+  <span style="font-size: 1.4rem;">
+    ♪ ♫ ♬ ♫ ♪ &nbsp;&nbsp; ♪ ♫ ♬ ♫ ♪ &nbsp;&nbsp; ♪ ♫ ♬ ♫ ♪
+  </span>
 </p>
 
 ---
@@ -60,8 +63,9 @@
 
 ## 🔭 What I’m Working On
 
-- 🤖 **LLM & NLP Research** – reasoning, retrieval, evaluation, and real-time agents  
-- 🎨 **AI Music & Art** – generative music videos, interactive story worlds, and live experiences  
+- 🤖 **LLM & NLP Research**  
+- 🎨 **AI Music & Art** 
+- 💼 **Side Hustle Projects** [Devpost](https://devpost.com/stephenallstar24)  
 
 ---
 

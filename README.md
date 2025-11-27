@@ -1,13 +1,41 @@
 <!-- Top Wave Banner -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&section=header&text=Stephen%20Ngo%20(ngstephen1)&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=35)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&section=header&text=Stephen%20Nguyen%20(ngstephen1)&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=35)
 
 <div align="center">
 
 <!-- Animated Typing Intro -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AI+%F0%9F%A4%96+%C3%97+Music+%F0%9F%8E%B5+%C3%97+Data+Storytelling;Virginia+Tech+'27+%7C+CMDA+%26+CS;Turning+data+into+stories+people+can+feel+%F0%9F%8C%9F" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=Data+Magician+%7C+Future+AI+Musician;Virginia+Tech+'27+%7C+CMDA+%26+CS;Loves+storytelling+%26+emotional+AI+music" alt="Typing SVG" />
+
+</div>
+
+<p align="center">
+  <b>Data Magician, Future AI Musician. Loves Storytelling.</b>
+</p>
+
+<p align="center">
 
 <!-- Profile Views -->
-<img src="https://komarev.com/ghpvc/?username=ngstephen1&label=Profile%20Views&color=00BFFF&style=flat-square" alt="profile views" />
+![Profile views](https://komarev.com/ghpvc/?username=ngstephen1&label=Profile%20Views&color=00BFFF&style=flat-square)
+
+</p>
+
+---
+
+## 🌐 Connect with Me
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/nguyenpn1">
+  <img src="https://img.shields.io/badge/LinkedIn-Stephen%20Nguyen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://scholar.google.com/citations?user=3K0cXZwAAAAJ&hl=en&authuser=1">
+  <img src="https://img.shields.io/badge/Google%20Scholar-Stephen%20Nguyen-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" />
+</a>
+
+<a href="https://steegle.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-steegle.vercel.app-FF6F91?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
 
 </div>
 
@@ -15,29 +43,28 @@
 
 ## 👋 About Me
 
-- 🎓 **Virginia Tech '27** · CMDA / CS, focused on AI & data storytelling  
-- 🎵 I build **AI music videos** and interactive experiences (first love, memory, emotion)  
-- 📊 I love turning **messy data → clear, emotional stories**  
+- 🎓 **Virginia Tech '27** · Data Science / CS, focused on NLP & LLM.
+- 🎵 I build **AI music videos** and interactive experiences.
+- 📊 Data magician: turning **messy data → clear, emotional stories**  
+- ❤️ I genuinely **love storytelling** – in code, visuals, and music  
 - ✈️ *“I am willing to travel across the world to do wonderful things.”*  
 
 ---
 
 ## 🏆 Trophies & Highlights
 
-<div align="center">
+<p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ngstephen1&theme=onedark&no-frame=true&margin-w=8&margin-h=8" alt="GitHub Trophies" />
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=ngstephen1&theme=onedark&no-frame=true&margin-w=8&margin-h=8)
 
-</div>
+</p>
 
 ---
 
 ## 🔭 What I’m Working On
 
-- 🚗 **DataScienceHackbyToyota** – racing analytics & simulation for motorsport  
-- 🧬 **Virginia-Techbros-HealthcareRAGApplication** – IBM-style medical research assistant with RAG  
-- 🎧 **Loopy / ambisoincPy** – spatial audio & generative music experiments  
-- 🌐 **[Stee(gle)](https://steegle.vercel.app)** – my personal search + portfolio playground  
+- LLM & NLP Research
+- AI Music and Art
 
 ---
 
@@ -81,13 +108,10 @@
 
 <div align="center">
 
-<!-- Main Stats -->
 <img src="https://github-readme-stats.vercel.app/api?username=ngstephen1&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Stephen's GitHub stats" />
 
-<!-- Streak -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=ngstephen1&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
-<!-- Top Languages -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ngstephen1&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
 </div>
@@ -96,31 +120,11 @@
 
 ## 📊 Contribution Activity
 
-<div align="center">
+<p align="center">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ngstephen1&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
 
-</div>
-
----
-
-## 🌐 Connect with Me
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/nguyenpn1">
-  <img src="https://img.shields.io/badge/LinkedIn-Stephen%20Ngo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://scholar.google.com/citations?user=3K0cXZwAAAAJ&hl=en&authuser=1">
-  <img src="https://img.shields.io/badge/Google%20Scholar-Stephen%20Ngo-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" />
-</a>
-
-<a href="https://steegle.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-steegle.vercel.app-FF6F91?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-
-</div>
+</p>
 
 ---
 

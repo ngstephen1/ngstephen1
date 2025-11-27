@@ -5,7 +5,7 @@
 
 <!-- Animated Typing Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1000&color=9AE6FF&center=true&vCenter=true&width=900&lines=Virginia+Tech+'27+%7C+Data+Science+%2F+Computer+Science;NLP+%26+Large+Language+Models+%E2%80%A2+AI+Music+%26+Art;Turning+messy+data+into+clear%2C+emotional+stories+%F0%9F%8C%9F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1000&color=9AE6FF&center=true&vCenter=true&width=900&lines=Virginia+Tech+'27+%7C+Data+Science+%2F+Computer+Science;NLP+%26+Large+Language+Models+%E2%80%A2+AI+Music+%26+Art;Turning+silent+numbers+%E2%86%92+voices+in+stories+you+can+feel+%F0%9F%8C%9F" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -85,7 +85,7 @@
 
 - 🎓 **Virginia Tech '27** · Data Science / CS, focused on **NLP & LLMs**  
 - 🎵 I build **AI music videos** and interactive experiences  
-- 📊 **Data magician:** turning *messy data → clear, emotional stories*  
+- 📊 **Data magician:** turning silent numbers → voices in stories you can feel  
 - ❤️ I genuinely **love storytelling** – in code, visuals, and music  
 - ✈️ *“I am willing to travel across the world to do wonderful things.”*  
 

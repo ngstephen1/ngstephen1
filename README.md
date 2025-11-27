@@ -21,6 +21,11 @@
   <sub>▁ ▂ ▃ ▄ ▅ ▆ ▇ █   ▁ ▂ ▃ ▄ ▅ ▆ ▇ █   ▁ ▂ ▃ ▄ ▅ ▆ ▇ █</sub>
 </p>
 
+<!-- Running music notes animation -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2000&pause=0&center=true&vCenter=true&width=600&color=FF9AE6&lines=♪+♫+♬+♩+♪+♫+♬+♩;♩+♪+♫+♬+♩+♪+♫+♬;♪+♩+♪+♩+♪+♩+♪+♩" alt="Music notes animation" />
+</p>
+
 ---
 
 ## 🌐 Connect with Me
@@ -55,8 +60,8 @@
 
 ## 🔭 What I’m Working On
 
-- 🤖 **LLM & NLP Research**
-- 🎨 **AI Music & Art** 
+- 🤖 **LLM & NLP Research** – reasoning, retrieval, evaluation, and real-time agents  
+- 🎨 **AI Music & Art** – generative music videos, interactive story worlds, and live experiences  
 
 ---
 
@@ -150,23 +155,11 @@
 
 ---
 
-## 🏆 Trophies & Highlights
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ngstephen1&theme=onedark&no-frame=true&margin-w=8&margin-h=8" alt="GitHub Trophies (if you can't see this, try opening the image link directly)" />
-</p>
-
----
-
-## 📈 GitHub Stats & Activity
+## 📈 GitHub Stats
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=ngstephen1&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Stephen's GitHub stats" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=ngstephen1&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 <br/>
 
@@ -184,7 +177,6 @@
 
 ---
 
-<!-- Closing with music notes -->
 <div align="center">
 
 🎵🎧 *Thanks for stopping by.*  

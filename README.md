@@ -16,7 +16,7 @@
 
 <!-- Music "Now Playing" block -->
 <p align="center">
-  🎶 <b>Now Playing:</b> <i>"First Love, Last Frame"</i> — an AI music video about memory & emotion  
+  🎶 <b>Now Playing:</b> <i>"First Name, Last Frame"</i> — singing the story of my life  
   <br/>
   <sub>▁ ▂ ▃ ▄ ▅ ▆ ▇ █   ▁ ▂ ▃ ▄ ▅ ▆ ▇ █   ▁ ▂ ▃ ▄ ▅ ▆ ▇ █</sub>
 </p>
@@ -33,21 +33,51 @@
 
 ## 🌐 Connect with Me
 
-<div align="center">
+<!-- Icon row -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/nguyenpn1" target="blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+         alt="LinkedIn"
+         width="34"
+         height="34" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://scholar.google.com/citations?user=3K0cXZwAAAAJ&hl=en&authuser=1" target="blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
+         alt="Google Scholar"
+         width="34"
+         height="34" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://steegle.vercel.app" target="blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg"
+         alt="Portfolio"
+         width="34"
+         height="34" />
+  </a>
+</p>
 
-<a href="https://www.linkedin.com/in/nguyenpn1">
-  <img src="https://img.shields.io/badge/LinkedIn-Stephen%20Nguyen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://scholar.google.com/citations?user=3K0cXZwAAAAJ&hl=en&authuser=1">
-  <img src="https://img.shields.io/badge/Google%20Scholar-Stephen%20Nguyen-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" />
-</a>
-
-<a href="https://steegle.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-steegle.vercel.app-FF6F91?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-
-</div>
+<!-- Pill-style link row -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/nguyenpn1" target="blank">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-Stephen%20Nguyen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn - Stephen Nguyen"
+    />
+  </a>
+  <a href="https://scholar.google.com/citations?user=3K0cXZwAAAAJ&hl=en&authuser=1" target="_blank">
+    <img
+      src="https://img.shields.io/badge/Google%20Scholar-Stephen%20Nguyen-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white"
+      alt="Google Scholar - Stephen Nguyen"
+    />
+  </a>
+  <a href="https://steegle.vercel.app" target="blank">
+    <img
+      src="https://img.shields.io/badge/Portfolio-steegle.vercel.app-FF6F91?style=for-the-badge&logo=vercel&logoColor=white"
+      alt="Portfolio - steegle.vercel.app"
+    />
+  </a>
+</p>
 
 ---
 
@@ -157,6 +187,38 @@
 
 </div>
 
+---
+
+## 💼 Experience
+
+<p align="center">
+  <!-- Marriott -->
+  <a href="https://www.marriott.com/">
+    <img src="https://img.shields.io/badge/Marriott%20International-Software%20Engineer%20%7C%20SQE-E60026?style=for-the-badge&logo=marriott&logoColor=white" alt="Marriott International" />
+  </a>
+  <br/>
+
+  <!-- Virginia Tech -->
+  <a href="https://vt.edu/">
+    <img src="https://img.shields.io/badge/Virginia%20Tech-Undergraduate%20Research%20Assistant%20%7C%20Mentor-861F41?style=for-the-badge&logo=virginia-tech&logoColor=white" alt="Virginia Tech" />
+  </a>
+  <br/>
+
+  <!-- FPT Software -->
+  <a href="https://fptsoftware.com/">
+    <img src="https://img.shields.io/badge/FPT%20Software-Artificial%20Intelligence%20Engineer-00AE41?style=for-the-badge&logo=fpt&logoColor=white" alt="FPT Software" />
+  </a>
+</p>
+
+- 🏨 **Marriott International** – Software Engineer (Part-time) & Software Quality Engineer Intern  
+  - Mobile App Team 
+
+- 🎓 **Virginia Tech** – Undergraduate Research Assistant & Mentor  
+  - Search-augmented LLMs with **Dr. Tu Vu** · Co-author on *SealQA: Raising the Bar for Reasoning in Search-Augmented LMs*  
+  - Mentor for CMDA 1634 · Data science & computational modeling
+
+- 🎨 **FPT Software (AI Artist Team)** – Artificial Intelligence Engineer Intern  
+  - NLP, Generative AI, LLMs, CV, GANs, transformers, Azure · AI-generated art & media (“Deep Peace of Art”, etc.)
 ---
 
 ## 📈 GitHub Stats

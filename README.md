@@ -9,7 +9,16 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Profile%20views-✨-00BFFF?style=flat-square&logo=github&logoColor=white" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Profile%20vibes-🎵🎧-00BFFF?style=flat-square&logo=github&logoColor=white" alt="Profile vibes" />
+</p>
+
+---
+
+<!-- Music "Now Playing" block -->
+<p align="center">
+  🎶 <b>Now Playing:</b> <i>"First Love, Last Frame"</i> — an AI music video about memory & emotion  
+  <br/>
+  <sub>▁ ▂ ▃ ▄ ▅ ▆ ▇ █   ▁ ▂ ▃ ▄ ▅ ▆ ▇ █   ▁ ▂ ▃ ▄ ▅ ▆ ▇ █</sub>
 </p>
 
 ---
@@ -46,22 +55,14 @@
 
 ## 🔭 What I’m Working On
 
-- 🤖 **LLM & NLP Research** – reasoning, retrieval, evaluation, and real-time agents  
-- 🎨 **AI Music & Art** – generative music videos, interactive story worlds, and live experiences  
+- 🤖 **LLM & NLP Research**
+- 🎨 **AI Music & Art** 
 
 ---
 
-## 🏆 Trophies & Highlights
+## 🎼 Music-Coded Tech Stack
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ngstephen1&theme=onedark&no-frame=true&margin-w=8&margin-h=8" alt="GitHub Trophies" />
-</p>
-
----
-
-## 🛠 Tech Stack
-
-### 💻 Programming Languages
+### 🎹 Instruments — Programming Languages
 
 <div align="center">
 
@@ -79,7 +80,7 @@
 
 </div>
 
-### 📚 Frameworks & Libraries
+### 🎛️ Synths & Plugins — Frameworks & Libraries
 
 <div align="center">
 
@@ -111,7 +112,7 @@
 
 </div>
 
-### ☁️ Technologies & Tools
+### 🎚️ Studio Gear — Technologies & Tools
 
 <div align="center">
 
@@ -149,13 +150,25 @@
 
 ---
 
+## 🏆 Trophies & Highlights
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ngstephen1&theme=onedark&no-frame=true&margin-w=8&margin-h=8" alt="GitHub Trophies (if you can't see this, try opening the image link directly)" />
+</p>
+
+---
+
 ## 📈 GitHub Stats & Activity
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=ngstephen1&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Stephen's GitHub stats" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ngstephen1&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=ngstephen1&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+<br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ngstephen1&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
@@ -171,9 +184,14 @@
 
 ---
 
+<!-- Closing with music notes -->
 <div align="center">
 
-✨ *Thanks for stopping by. If you’re into NLP, LLMs, AI music, or wild data ideas, my DMs are always open.* ✨  
+🎵🎧 *Thanks for stopping by.*  
+<br/>
+If you’re into **NLP, LLMs, AI music, or wild data ideas**,  
+<br/>
+<b>let’s jam on something together.</b> 🎼
 
 </div>
 

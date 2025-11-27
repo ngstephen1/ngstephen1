@@ -194,7 +194,7 @@
 <p align="center">
   <!-- Marriott -->
   <a href="https://www.marriott.com/">
-    <img src="https://img.shields.io/badge/Marriott%20International-Software%20Engineer%20%7C%20SQE-E60026?style=for-the-badge&logo=marriott&logoColor=white" alt="Marriott International" />
+    <img src="https://img.shields.io/badge/Marriott%20International-Software%20Engineer%20%7C%20SWE-E60026?style=for-the-badge&logo=marriott&logoColor=white" alt="Marriott International" />
   </a>
   <br/>
 
@@ -210,7 +210,7 @@
   </a>
 </p>
 
-- 🏨 **Marriott International** – Software Engineer (Part-time) & Software Quality Engineer Intern  
+- 🏨 **Marriott International** – Software Engineer & Software Quality Engineer Intern  
   - Mobile App Team 
 
 - 🎓 **Virginia Tech** – Undergraduate Research Assistant & Mentor  

@@ -221,20 +221,6 @@
   - NLP, Generative AI, LLMs, CV, GANs, transformers, Azure · AI-generated art & media (“Deep Peace of Art”, etc.)
 ---
 
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ngstephen1&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Stephen's GitHub stats" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ngstephen1&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-
-</div>
-
----
-
 ## 📊 Contribution Activity
 
 <p align="center">

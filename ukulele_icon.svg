@@ -1,7 +1,5 @@
-<svg width="300" height="420" viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
-
+<svg width="250" height="220" viewBox="0 0 250 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Neon gradient -->
     <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00eaff"/>
       <stop offset="100%" stop-color="#ff00ff"/>
@@ -11,14 +9,14 @@
       .outline {
         fill: none;
         stroke: url(#neon);
-        stroke-width: 4;
+        stroke-width: 3; /* Slightly thinner for elegance */
         stroke-linecap: round;
         stroke-linejoin: round;
       }
 
       .strings {
         stroke: white;
-        stroke-width: 2;
+        stroke-width: 1.5;
         animation: vibrate .12s infinite ease-in-out;
         opacity: 0.9;
       }
@@ -37,13 +35,13 @@
 
       @keyframes rock {
         0% { transform: rotate(-4deg) translateY(0); }
-        100% { transform: rotate(4deg) translateY(-10px); }
+        100% { transform: rotate(4deg) translateY(-8px); }
       }
 
       /* Strings vibration */
       @keyframes vibrate {
         0% { transform: translateX(0); }
-        50% { transform: translateX(1.3px); }
+        50% { transform: translateX(1px); }
         100% { transform: translateX(0); }
       }
 
@@ -55,10 +53,8 @@
     </style>
   </defs>
 
-  <!-- WHOLE UKULELE -->
-  <g class="uke" transform="translate(70,10)">
+  <g class="uke" transform="translate(60, 15) scale(0.85)">
 
-    <!-- BODY (realistic outline) -->
     <path class="outline" d="
       M80,220
       C55,220 35,200 35,175
@@ -71,16 +67,12 @@
       C165,200 145,220 120,220
       Z" />
 
-    <!-- SOUND HOLE -->
     <circle class="outline" cx="100" cy="132" r="18"/>
 
-    <!-- BRIDGE -->
     <rect class="outline" x="80" y="185" width="40" height="12" rx="3"/>
 
-    <!-- NECK -->
     <rect class="outline" x="92" y="35" width="16" height="75" rx="2"/>
 
-    <!-- FRETS -->
     <g stroke="url(#neon)" stroke-width="2">
       <line x1="92" x2="108" y1="50" y2="50"/>
       <line x1="92" x2="108" y1="63" y2="63"/>
@@ -89,7 +81,6 @@
       <line x1="92" x2="108" y1="102" y2="102"/>
     </g>
 
-    <!-- HEADSTOCK -->
     <path class="outline" d="
       M88,0
       L112,0
@@ -100,7 +91,6 @@
       C75,6 80,0 88,0
       Z" />
 
-    <!-- TUNING PEGS -->
     <g fill="url(#neon)">
       <circle cx="82" cy="12" r="4"/>
       <circle cx="82" cy="25" r="4"/>
@@ -108,13 +98,11 @@
       <circle cx="118" cy="25" r="4"/>
     </g>
 
-    <!-- STRINGS -->
     <line class="strings" x1="88" x2="88" y1="0"   y2="185"/>
     <line class="strings" x1="95" x2="95" y1="0"   y2="185" style="animation-delay:.05s"/>
     <line class="strings" x1="105" x2="105" y1="0" y2="185" style="animation-delay:.10s"/>
     <line class="strings" x1="112" x2="112" y1="0" y2="185" style="animation-delay:.15s"/>
 
-    <!-- FLOATING NOTES -->
     <g transform="translate(170,80)">
       <circle class="note" cx="0" cy="0" r="6" />
       <circle class="note" cx="20" cy="-15" r="5" style="animation-delay:.7s; fill:#ff00ff"/>
@@ -122,5 +110,4 @@
     </g>
 
   </g>
-
 </svg>

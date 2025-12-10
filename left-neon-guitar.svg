@@ -1,0 +1,66 @@
+<svg width="250" height="220" viewBox="0 0 250 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="guitarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff00ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ffff;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="guitarGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/> <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .guitar-container { filter: url(#guitarGlow); }
+      /* Thicker strokes and centered animation */
+      .body { fill: none; stroke: url(#guitarGrad); stroke-width: 5; stroke-linecap: round; animation: float 4s infinite ease-in-out alternate; }
+      .neck { fill: url(#guitarGrad); }
+      /* Strings are now bright white/pink and thicker */
+      .string { stroke: #ffffff; stroke-width: 2; opacity: 0.9; animation: vibrate 0.2s infinite linear; }
+      
+      /* Particles are larger and brighter */
+      .particle { fill: #00ffff; opacity: 0; animation: emit 2s infinite ease-out; }
+      .p1 { animation-delay: 0.5s; } 
+      .p2 { animation-delay: 1.0s; cx: 10px; cy: -10px; fill: #ff00ff; } 
+      .p3 { animation-delay: 1.5s; cx: -10px; cy: 10px; }
+      
+      @keyframes float { 
+        0% { transform: translateY(0) rotate(0deg); } 
+        100% { transform: translateY(-15px) rotate(2deg); } 
+      }
+      @keyframes vibrate { 
+        0% { transform: translateX(0); } 
+        25% { transform: translateX(1px); } 
+        75% { transform: translateX(-1px); } 
+        100% { transform: translateX(0); } 
+      }
+      @keyframes emit { 
+        0% { opacity: 1; transform: translate(0,0) scale(1); } 
+        100% { opacity: 0; transform: translate(-40px, -60px) scale(0); } 
+      }
+    </style>
+  </defs>
+  
+  <g class="guitar-container" transform="translate(60, 40) rotate(-15)">
+    <g class="body">
+        <path d="M50,140 C10,140 -10,100 10,70 C20,50 40,30 60,30 C75,30 85,40 90,50 L140,0 L155,15 L105,65 C115,80 110,110 90,125 C80,135 65,140 50,140 Z" />
+        <rect class="neck" x="90" y="40" width="60" height="12" transform="rotate(-45 90 40)" />
+    </g>
+    
+    <g transform="translate(35, 60)">
+        <line class="string" x1="80" y1="-20" x2="20" y2="40" />
+        <line class="string" x1="85" y1="-15" x2="25" y2="45" style="animation-delay: -0.05s;" />
+        <line class="string" x1="90" y1="-10" x2="30" y2="50" style="animation-delay: -0.1s;" />
+    </g>
+
+    <g transform="translate(80, 50)">
+        <circle class="particle p1" r="6" />
+        <circle class="particle p2" r="5" />
+        <circle class="particle p3" r="4" />
+    </g>
+  </g>
+</svg>

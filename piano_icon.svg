@@ -75,7 +75,7 @@
     </style>
   </defs>
 
-  <g class="piano" transform="translate(35, 10) scale(0.7)">
+  <g class="piano" transform="translate(60, 30) scale(0.5)">
 
     <rect class="body-fill" x="5" y="40" width="230" height="190" rx="20" />
 

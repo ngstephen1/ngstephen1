@@ -9,7 +9,7 @@
       .outline {
         fill: none;
         stroke: url(#neon);
-        stroke-width: 3; /* Slightly thinner for elegance */
+        stroke-width: 3;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
@@ -21,8 +21,9 @@
         opacity: 0.9;
       }
 
+      /* This class now applies to the music note paths */
       .note {
-        fill: #00eaff;
+        fill: url(#neon); /* Changed to use the neon gradient */
         opacity: 0;
         animation: floatNote 2.8s infinite;
       }
@@ -55,17 +56,7 @@
 
   <g class="uke" transform="translate(60, 15) scale(0.85)">
 
-    <path class="outline" d="
-      M80,220
-      C55,220 35,200 35,175
-      C35,150 55,130 80,130
-      C55,130 40,110 40,85
-      C40,55 65,35 100,35
-      C135,35 160,55 160,85
-      C160,110 145,130 120,130
-      C145,130 165,150 165,175
-      C165,200 145,220 120,220
-      Z" />
+    <path class="outline" d="M80,220 C55,220 35,200 35,175 C35,150 55,130 80,130 C55,130 40,110 40,85 C40,55 65,35 100,35 C135,35 160,55 160,85 C160,110 145,130 120,130 C145,130 165,150 165,175 C165,200 145,220 120,220 Z" />
 
     <circle class="outline" cx="100" cy="132" r="18"/>
 
@@ -81,15 +72,7 @@
       <line x1="92" x2="108" y1="102" y2="102"/>
     </g>
 
-    <path class="outline" d="
-      M88,0
-      L112,0
-      C120,0 125,6 125,14
-      L125,35
-      L75,35
-      L75,14
-      C75,6 80,0 88,0
-      Z" />
+    <path class="outline" d="M88,0 L112,0 C120,0 125,6 125,14 L125,35 L75,35 L75,14 C75,6 80,0 88,0 Z" />
 
     <g fill="url(#neon)">
       <circle cx="82" cy="12" r="4"/>
@@ -98,15 +81,15 @@
       <circle cx="118" cy="25" r="4"/>
     </g>
 
-    <line class="strings" x1="88" x2="88" y1="0"   y2="185"/>
-    <line class="strings" x1="95" x2="95" y1="0"   y2="185" style="animation-delay:.05s"/>
+    <line class="strings" x1="88" x2="88" y1="0" y2="185"/>
+    <line class="strings" x1="95" x2="95" y1="0" y2="185" style="animation-delay:.05s"/>
     <line class="strings" x1="105" x2="105" y1="0" y2="185" style="animation-delay:.10s"/>
     <line class="strings" x1="112" x2="112" y1="0" y2="185" style="animation-delay:.15s"/>
 
     <g transform="translate(170,80)">
-      <circle class="note" cx="0" cy="0" r="6" />
-      <circle class="note" cx="20" cy="-15" r="5" style="animation-delay:.7s; fill:#ff00ff"/>
-      <circle class="note" cx="-10" cy="-25" r="4" style="animation-delay:1.4s"/>
+      <path class="note" d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" transform="scale(0.8)"/>
+      <path class="note" d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" transform="translate(25, -20) scale(0.7) rotate(15)" style="animation-delay:.7s"/>
+      <path class="note" d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" transform="translate(-10, -30) scale(0.6) rotate(-10)" style="animation-delay:1.4s"/>
     </g>
 
   </g>

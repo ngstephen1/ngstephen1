@@ -1,0 +1,138 @@
+<svg width="320" height="360" viewBox="0 0 320 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neon-sax" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="100%" stop-color="#ff00ff"/>
+    </linearGradient>
+
+    <style>
+      .sax-outline {
+        fill: none;
+        stroke: url(#neon-sax);
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .key {
+        fill: rgba(255,255,255,0.06);
+        stroke: url(#neon-sax);
+        stroke-width: 2;
+      }
+
+      .sax {
+        animation: sway 3.2s infinite ease-in-out alternate;
+        transform-origin: center;
+      }
+
+      .note-head {
+        fill: #00eaff;
+      }
+      .note-stem, .note-flag {
+        stroke: #00eaff;
+        stroke-width: 1.6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+      }
+
+      .note {
+        opacity: 0;
+        animation: floatNote 2.8s infinite;
+        transform-origin: center;
+      }
+
+      @keyframes sway {
+        0%   { transform: rotate(-6deg) translateY(0); }
+        100% { transform: rotate(4deg) translateY(-10px); }
+      }
+
+      @keyframes floatNote {
+        0%   { opacity: 1; transform: translate(0,0) scale(1); }
+        100% { opacity: 0; transform: translate(30px,-55px) scale(0.7); }
+      }
+    </style>
+  </defs>
+
+  <!-- WHOLE SAXOPHONE -->
+  <g class="sax" transform="translate(60,20)">
+
+    <!-- BODY + NECK + BELL (single continuous outline) -->
+    <path class="sax-outline" d="
+      M40,30
+      L70,18
+      Q80,15 85,22
+      Q90,30 80,38
+      L65,48
+
+      Q50,58 52,78
+      Q55,108 80,128
+      Q105,148 118,170
+      Q135,198 132,222
+      Q129,248 114,264
+      Q100,280 86,286
+      Q70,293 60,294
+      Q45,296 35,292
+      Q25,288 22,280
+      Q20,274 23,268
+      Q26,262 33,262
+      Q40,262 48,264
+      Q60,266 71,262
+      Q86,256 95,242
+      Q104,228 106,212
+      Q108,196 100,182
+      Q92,168 76,154
+      Q50,132 42,106
+      Q35,82 38,62
+      Q40,48 48,40
+      Z" />
+
+    <!-- BELL RIM -->
+    <path class="sax-outline" d="
+      M22,280
+      Q35,300 60,303
+      Q85,306 104,295" />
+
+    <!-- TONE HOLES / KEYS -->
+    <circle class="key" cx="80" cy="140" r="6"/>
+    <circle class="key" cx="90" cy="157" r="6"/>
+    <circle class="key" cx="99" cy="175" r="6"/>
+    <circle class="key" cx="104" cy="195" r="6"/>
+    <circle class="key" cx="104" cy="215" r="6"/>
+
+    <!-- PALM KEYS NEAR NECK -->
+    <circle class="key" cx="65" cy="90" r="4"/>
+    <circle class="key" cx="72" cy="101" r="4"/>
+
+    <!-- MOUTHPIECE / REED -->
+    <path class="sax-outline" d="
+      M40,30
+      L30,20
+      Q27,18 27,15
+      Q27,10 32,9
+      L52,9" />
+
+    <!-- FLOATING MUSICAL NOTES -->
+    <!-- Note 1 -->
+    <g class="note" transform="translate(190,120)">
+      <circle class="note-head" cx="0" cy="0" r="6"/>
+      <line class="note-stem" x1="4" y1="-12" x2="4" y2="0"/>
+      <path class="note-flag" d="M4,-12 C13,-16 13,-7 6,-5" />
+    </g>
+
+    <!-- Note 2 -->
+    <g class="note" transform="translate(210,95)" style="animation-delay:.7s">
+      <circle class="note-head" cx="0" cy="0" r="5"/>
+      <line class="note-stem" x1="3.5" y1="-11" x2="3.5" y2="0"/>
+      <path class="note-flag" d="M3.5,-11 C11,-15 11,-8 5,-6" />
+    </g>
+
+    <!-- Note 3 -->
+    <g class="note" transform="translate(175,80)" style="animation-delay:1.4s">
+      <circle class="note-head" cx="0" cy="0" r="4.5"/>
+      <line class="note-stem" x1="3" y1="-10" x2="3" y2="0"/>
+      <path class="note-flag" d="M3,-10 C10,-13 10,-7 4,-5" />
+    </g>
+
+  </g>
+</svg>

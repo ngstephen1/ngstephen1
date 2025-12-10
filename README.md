@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:FF0080,50:7928CA,100:FF0080&height=250&section=header&text=Stephen%20Nguyen&fontSize=70&fontAlignY=40&animation=twinkling&fontColor=ffffff&desc=DATA%20MAGICIAN%20%7C%20FUTURE%20AI%20MUSICIAN&descAlignY=65&descSize=20&stroke=ffffff&strokeWidth=2" width="100%" />
+  <img src="blob.svg" width="100%" alt="Liquid Blob Animation" />
 </div>
 <!-- Above is visual -->
 

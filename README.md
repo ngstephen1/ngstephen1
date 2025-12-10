@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=50&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&height=120&lines=Stephen+Nguyen;%E2%96%81%E2%96%83%E2%96%85%E2%96%87%E2%96%88%E2%96%93%E2%96%92%E2%96%91+Data+Magician+%E2%96%91%E2%96%92%E2%96%93%E2%96%88%E2%96%87%E2%96%85%E2%96%83%E2%96%81;Future+AI+Musician" alt="Sonic Pulse" />
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:FF0080,50:7928CA,100:FF0080&height=250&section=header&text=Stephen%20Nguyen&fontSize=70&fontAlignY=40&animation=twinkling&fontColor=ffffff&desc=DATA%20MAGICIAN%20%7C%20FUTURE%20AI%20MUSICIAN&descAlignY=65&descSize=20&stroke=ffffff&strokeWidth=2" width="100%" />
 </div>
 <!-- Above is visual -->
 

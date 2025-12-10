@@ -243,4 +243,6 @@ If you’re into **NLP, LLMs, AI music, or wild data ideas**,
 </div>
 
 <!-- Bottom Wave Banner -->
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:8A2BE2&height=140&section=footer)
+<p align="center">
+  <img src="footer.svg" width="100%" alt="musical footer">
+</p>

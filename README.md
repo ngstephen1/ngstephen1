@@ -3,7 +3,7 @@
   
   <img src="center-text.svg" alt="Stephen Nguyen" style="flex: 0 0 auto; height: 100%; z-index: 10;">
   
-  <img src="piano_super.svg" alt="Neon Notes" style="flex: 1; height: 100%; object-fit: cover; max-width: 250px;">
+  <img src="right-neon-notes.svg" alt="Neon Notes" style="flex: 1; height: 100%; object-fit: cover; max-width: 250px;">
 </div>
 
 <!-- Animated Typing Banner -->

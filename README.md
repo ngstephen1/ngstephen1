@@ -1,9 +1,9 @@
-<div align="center" style="position: relative; width: 100%; height: 220px; overflow: hidden; border-radius: 15px; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
-  <img src="music-bg-short.svg" alt="background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;" />
+<div align="center" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 220px; border-radius: 15px; overflow: hidden; background-color: #0d1117; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
+  <img src="left-music-wave.svg" alt="Sound Wave" style="flex: 1; height: 100%; object-fit: cover; max-width: 250px;">
   
-  <img src="neon-blob-short.svg" alt="neon blob" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; mix-blend-mode: screen;" />
+  <img src="center-text.svg" alt="Stephen Nguyen" style="flex: 0 0 auto; height: 100%; z-index: 10;">
   
-  <img src="text-overlay-short.svg" alt="Stephen Nguyen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 3;" />
+  <img src="right-neon-notes.svg" alt="Neon Notes" style="flex: 1; height: 100%; object-fit: cover; max-width: 250px;">
 </div>
 
 <!-- Animated Typing Banner -->

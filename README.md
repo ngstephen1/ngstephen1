@@ -1,11 +1,10 @@
-<div align="center">
-  <img src="blob.svg" width="100%" alt="Liquid Blob Animation" />
+<div align="center" style="position: relative; width: 100%; height: 350px; overflow: hidden; border-radius: 15px; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
+  <img src="music-bg.svg" alt="background" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; z-index: 1;" />
+  
+  <img src="neon-blob.svg" alt="neon blob" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; z-index: 2; mix-blend-mode: screen;" />
+  
+  <img src="text-overlay.svg" alt="Stephen Nguyen" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; z-index: 3;" />
 </div>
-<!-- Above is visual -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:8A2BE2,50:00BFFF,100:FF6FD8&height=230&section=header&text=Stephen%20Nguyen&fontSize=55&fontAlignY=35&fontColor=ffffff&animation=twinkling&desc=Data%20Magician%20%7C%20Future%20AI%20Musician&descAlignY=60&descSize=22" alt="header" />
-</p>
 
 <!-- Animated Typing Banner -->
 <p align="center">

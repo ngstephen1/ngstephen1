@@ -1,5 +1,5 @@
 <div align="center" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 220px; border-radius: 15px; overflow: hidden; background-color: #0d1117; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
-  <img src="left-neon-guitar.svg" alt="Neon Guitar" style="flex: 1; height: 100%; object-fit: cover; max-width: 250px;">
+  <img src="ukulele5.svg" alt="Neon Guitar" style="flex: 1; height: 100%; object-fit: cover; max-width: 250px;">
   
   <img src="center-text.svg" alt="Stephen Nguyen" style="flex: 0 0 auto; height: 100%; z-index: 10;">
   

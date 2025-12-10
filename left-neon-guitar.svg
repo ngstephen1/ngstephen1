@@ -1,66 +1,36 @@
 <svg width="250" height="220" viewBox="0 0 250 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="guitarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#00ffff;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#ff00ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:1" />
     </linearGradient>
-    
-    <filter id="guitarGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="coloredBlur"/> <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
     <style>
-      .guitar-container { filter: url(#guitarGlow); }
-      /* Thicker strokes and centered animation */
-      .body { fill: none; stroke: url(#guitarGrad); stroke-width: 5; stroke-linecap: round; animation: float 4s infinite ease-in-out alternate; }
-      .neck { fill: url(#guitarGrad); }
-      /* Strings are now bright white/pink and thicker */
-      .string { stroke: #ffffff; stroke-width: 2; opacity: 0.9; animation: vibrate 0.2s infinite linear; }
+      /* Bright, thick strokes to ensure visibility */
+      .guitar-body { fill: none; stroke: url(#neonGrad); stroke-width: 4; stroke-linecap: round; animation: rock 3s infinite ease-in-out alternate; }
+      .string { stroke: white; stroke-width: 2; opacity: 0.8; animation: vibe 0.1s infinite linear; }
+      .note { fill: #00ffff; animation: floatNote 2s infinite linear; opacity: 0; }
       
-      /* Particles are larger and brighter */
-      .particle { fill: #00ffff; opacity: 0; animation: emit 2s infinite ease-out; }
-      .p1 { animation-delay: 0.5s; } 
-      .p2 { animation-delay: 1.0s; cx: 10px; cy: -10px; fill: #ff00ff; } 
-      .p3 { animation-delay: 1.5s; cx: -10px; cy: 10px; }
-      
-      @keyframes float { 
-        0% { transform: translateY(0) rotate(0deg); } 
-        100% { transform: translateY(-15px) rotate(2deg); } 
-      }
-      @keyframes vibrate { 
-        0% { transform: translateX(0); } 
-        25% { transform: translateX(1px); } 
-        75% { transform: translateX(-1px); } 
-        100% { transform: translateX(0); } 
-      }
-      @keyframes emit { 
-        0% { opacity: 1; transform: translate(0,0) scale(1); } 
-        100% { opacity: 0; transform: translate(-40px, -60px) scale(0); } 
-      }
+      @keyframes rock { 0% { transform: rotate(-10deg) translateY(0); } 100% { transform: rotate(0deg) translateY(-10px); } }
+      @keyframes vibe { 0% { transform: translateX(0); } 50% { transform: translateX(1px); } 100% { transform: translateX(0); } }
+      @keyframes floatNote { 0% { opacity: 1; transform: translate(0,0) scale(1); } 100% { opacity: 0; transform: translate(-30px, -50px) scale(0.5); } }
     </style>
   </defs>
-  
-  <g class="guitar-container" transform="translate(60, 40) rotate(-15)">
-    <g class="body">
-        <path d="M50,140 C10,140 -10,100 10,70 C20,50 40,30 60,30 C75,30 85,40 90,50 L140,0 L155,15 L105,65 C115,80 110,110 90,125 C80,135 65,140 50,140 Z" />
-        <rect class="neck" x="90" y="40" width="60" height="12" transform="rotate(-45 90 40)" />
+
+  <g transform="translate(80, 50)">
+    <g class="guitar-body">
+      <path d="M40,130 C10,130 -10,100 5,70 C15,50 35,30 55,30 C70,30 80,40 85,50 L130,5 L145,20 L95,65 C105,80 100,110 80,125 C70,135 55,140 40,130 Z" />
+      <line x1="85" y1="50" x2="135" y2="10" stroke="url(#neonGrad)" stroke-width="12" />
     </g>
     
-    <g transform="translate(35, 60)">
-        <line class="string" x1="80" y1="-20" x2="20" y2="40" />
-        <line class="string" x1="85" y1="-15" x2="25" y2="45" style="animation-delay: -0.05s;" />
-        <line class="string" x1="90" y1="-10" x2="30" y2="50" style="animation-delay: -0.1s;" />
+    <g class="guitar-body" style="stroke:none;">
+      <line class="string" x1="85" y1="45" x2="135" y2="5" />
+      <line class="string" x1="88" y1="48" x2="138" y2="8" style="animation-delay: 0.05s"/>
     </g>
 
-    <g transform="translate(80, 50)">
-        <circle class="particle p1" r="6" />
-        <circle class="particle p2" r="5" />
-        <circle class="particle p3" r="4" />
+    <g transform="translate(100, 40)">
+      <circle class="note" r="5" cx="0" cy="0" />
+      <circle class="note" r="4" cx="15" cy="-15" style="animation-delay: 0.5s; fill:#ff00ff;" />
+      <circle class="note" r="3" cx="-10" cy="-20" style="animation-delay: 1s;" />
     </g>
   </g>
 </svg>

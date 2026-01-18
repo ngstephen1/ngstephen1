@@ -217,7 +217,8 @@
   - Mobile App Team 
 
 - 🎓 **Virginia Tech** – Undergraduate Research Assistant & Mentor  
-  - Search-augmented LLMs with **Dr. Tu Vu** · Co-author on *SealQA: Raising the Bar for Reasoning in Search-Augmented LMs*  
+  - Search-augmented LLMs with **Dr. Tu Vu** · Co-author on *SealQA: Raising the Bar for Reasoning in Search-Augmented LMs*
+  - TA for CS 3654 · Data Analytics & Visualization
   - Mentor for CMDA 1634 · Data science & computational modeling
 
 - 🎨 **FPT Software (AI Artist Team)** – Artificial Intelligence Engineer Intern  
